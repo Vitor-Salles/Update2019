@@ -15,10 +15,13 @@ namespace SalesWebMvc.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult AboutMe()
         {
-            ViewData["Message"] = "Welcome to my page!";
-            ViewData["Learn"] = "I´m learning to about as make sites. Is very nice!";
+            ViewData["Message"] = "Welcome to my first page!";
+            ViewData["Learn"] = "Hi! This is my first academic project, with a .NET ASP Core MVC framework." +
+                                " It may sound simple, but it's already a great achievement for me.";
+            ViewData["Learn1"] = "I hope in the future, not too far away, to be planning even bolder and more structured solutions.";
+            ViewData["Learn2"] = "Feel free to navigate between pages! :)";
 
             return View();
         }
